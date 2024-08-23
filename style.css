@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f4f4fc;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.contenedorcajatexto {
+    position: absolute;     
+    left: 0;
+    top: 50px; 
+    padding-left: 240px;  
+    width: 800px;  
+    height: 450px;
+}
+
+.cajatexto{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.cajatexto::placeholder{ 
+    color:#0a3871
+}
+
+.alerta{
+    position: relative;
+    top: 515px;
+    left: 240px;    
+    display: flex;
+    color: #495057;
+}
+
+.contenedor-botones{
+    position: absolute;
+    top: 550px;
+    height: 80px;   
+    padding-left: 16%;  
+    padding-top: 15px;
+}
+
+.btn-encriptar{
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #0a3871;  
+    color: white;   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid  #0a3871;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: white;  
+    color: #0a3871;   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid  #0a3871 ;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;   
+    height: 650px;
+    right: 100px;   
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 32px;        
+    box-shadow: 0px 24px 39px -8px rgba(0, 0, 0, 50);
+}
+.contenedor-munieco{
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.contenedor-parrafo{
+    position: absolute;
+    box-sizing: border-box; 
+    top: 430px;
+    left: 40px;
+    text-align: center;
+}
+
+.btn-copiar{
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: white;  
+    color: #0a3871;   
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid  #0a3871 ;
+    cursor: pointer;
+    position: relative; 
+    top: 565px;
+    left: 130px;
+}
+
+.ocultar{
+    display: none;
+}
